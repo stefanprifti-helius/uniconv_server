@@ -2,7 +2,7 @@ var amqp = require("amqplib/callback_api");
 
 amqp.connect('amqp://localhost', function(err, conn) {
     conn.createChannel(function(err, ch) {
-        var q = 'word_import';
+        var q = 'upstream_word_import';
 
         var job = {
             id: "abc123",

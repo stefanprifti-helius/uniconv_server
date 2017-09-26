@@ -1,7 +1,8 @@
 const path = require('path');
 
 module.exports = {
-    queueName: 'word_import',
+    upstreamQueueName: 'upstream_word_import',
+    downstreamQueueName: 'downstream_word_import',
     logsFile: 'logs.log',
     connectionString: 'amqp://localhost',
     defaultConversion: 'html',

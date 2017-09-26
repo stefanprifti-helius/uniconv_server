@@ -2,14 +2,14 @@ const { spawn } = require('child_process');
 const logger = require('./src/logger');
 const path = require('path');
 const downloader = require('./src/file-downloader');
-const { defaultConversion, folders } = require('./config');
+const { defaultConversion, downstreamQueueName, folders } = require('./config');
 const { errorHandler, getResponseForDocument } = require('./src/common');
 const worker  = require('./src/worker');
 const fileCleaner = require('./src/file-cleaner');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 
-const queueHandler = function(ch, message) {
+const upstreamQueueHandler = function(ch, message) {
     const job = JSON.parse(message.content.toString('utf8'));
     const conversionType = job.params.output || defaultConversion;
 
@@ -38,13 +38,19 @@ const queueHandler = function(ch, message) {
             .then(() => ch.ack(message))
             .then(() => {
                 /**
-                 * TODO: All the content that we need after the conversion in inside buffer,
-                 * here we might call a route in Hapi and POST the content.
+                 * Here qe create a new queue in the same channel
+                 * this queue will downstream to hapi the response of the conversion
                  */
+                downstreamQueueHandler(ch, buffer);
             })
             .catch(() => ch.ack(message));
         });   
     });
+};
+
+const downstreamQueueHandler = (ch, buffer) => {
+    ch.assertQueue(downstreamQueueName, {durable: false});
+    ch.sendToQueue(downstreamQueueName, Buffer.from(JSON.stringify(buffer), "utf8"));
 };
 
 if (cluster.isMaster) {
@@ -58,5 +64,5 @@ if (cluster.isMaster) {
     });
 } else {
     logger.info(`Worker ${process.pid} started`);
-    worker(queueHandler);
+    worker(upstreamQueueHandler);
 }

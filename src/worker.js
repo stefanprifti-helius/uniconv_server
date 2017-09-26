@@ -1,6 +1,6 @@
 const amqp = require('amqplib/callback_api');
 const logger = require('./logger');
-const { queueName, connectionString } = require('../config');
+const { upstreamQueueName, connectionString } = require('../config');
 const { errorHandler } = require('./common');
 
 const worker = function (queueHandler) {
@@ -14,12 +14,12 @@ const worker = function (queueHandler) {
                     logger.error(`RabbitMQ connection could not create a channel`, err);
                     process.exit(0);
                 } else {
-                    ch.assertQueue(queueName, {durable: true});
-                    // ch.prefetch(1);
+                    ch.assertQueue(upstreamQueueName, {durable: true});
+                    ch.prefetch(1);
         
-                    logger.info(" [*] Waiting for jobs in %s.", queueName);
+                    logger.info(" [*] Waiting for jobs in %s.", upstreamQueueName);
         
-                    ch.consume(queueName, function(message) {
+                    ch.consume(upstreamQueueName, function(message) {
                         queueHandler(ch, message);
                     }, {noAck: false});
                 }
