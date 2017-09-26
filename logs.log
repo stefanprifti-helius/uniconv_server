@@ -1,98 +1,21 @@
-{"level":"info","message":"Master 4703 is running","timestamp":"2017-09-26T11:03:52.258Z"}
-{"level":"info","message":"Worker 4704 started","timestamp":"2017-09-26T11:03:52.834Z"}
-{"level":"info","message":"Worker 4708 started","timestamp":"2017-09-26T11:03:52.848Z"}
-{"level":"info","message":"Worker 4705 started","timestamp":"2017-09-26T11:03:52.859Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:03:52.877Z"}
-{"level":"info","message":"Worker 4709 started","timestamp":"2017-09-26T11:03:52.867Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:03:52.895Z"}
-{"level":"info","message":"Worker 4710 started","timestamp":"2017-09-26T11:03:52.876Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:03:52.903Z"}
-{"level":"info","message":"Worker 4711 started","timestamp":"2017-09-26T11:03:52.893Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:03:52.922Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:03:52.924Z"}
-{"level":"info","message":"Worker 4707 started","timestamp":"2017-09-26T11:03:52.919Z"}
-{"level":"info","message":"Worker 4706 started","timestamp":"2017-09-26T11:03:52.920Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:03:52.934Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:03:52.954Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:03:52.955Z"}
-{"level":"info","message":"Master 4895 is running","timestamp":"2017-09-26T11:04:25.444Z"}
-{"level":"info","message":"Worker 4898 started","timestamp":"2017-09-26T11:04:26.010Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:04:26.049Z"}
-{"level":"info","message":"Worker 4900 started","timestamp":"2017-09-26T11:04:26.032Z"}
-{"level":"info","message":"Started job with id abc123","timestamp":"2017-09-26T11:04:26.058Z"}
-{"level":"info","message":"Worker 4899 started","timestamp":"2017-09-26T11:04:26.048Z"}
-{"level":"info","message":"Worker 4902 started","timestamp":"2017-09-26T11:04:26.066Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:04:26.094Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:04:26.094Z"}
-{"level":"info","message":"Worker 4905 started","timestamp":"2017-09-26T11:04:26.084Z"}
-{"level":"info","message":"Started job with id abc123","timestamp":"2017-09-26T11:04:26.071Z"}
-{"level":"info","message":"Worker 4901 started","timestamp":"2017-09-26T11:04:26.090Z"}
-{"level":"info","message":"Worker 4903 started","timestamp":"2017-09-26T11:04:26.098Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:04:26.123Z"}
-{"level":"info","message":"Worker 4904 started","timestamp":"2017-09-26T11:04:26.111Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:04:26.129Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:04:26.135Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:04:26.140Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:04:26.146Z"}
-{"level":"error","message":"Verbosity set to level 3\nDEBUG: Connection type: socket,host=127.0.0.1,port=2002,tcpNoDelay=1;urp;StarOffice.ComponentContext\nDEBUG: Existing listener not found.\nDEBUG: Launching our own listener using /Applications/LibreOffice.app/Contents/MacOS/soffice.\nDEBUG: Process /Applications/LibreOffice.app/Contents/MacOS/soffice (pid=4928) exited with 0.\nError: Unable to connect or start own listener. Aborting.\n","timestamp":"2017-09-26T11:04:31.524Z"}
-{"level":"info","message":"Using office base path: /Applications/LibreOffice.app/Contents\nUsing office binary path: /Applications/LibreOffice.app/Contents/MacOS\nLibreOffice listener successfully started. (pid=4928)\n","timestamp":"2017-09-26T11:04:31.524Z"}
-{"level":"info","message":"Unoconv process exited with code 251","timestamp":"2017-09-26T11:04:31.560Z"}
-{"level":"info","message":"Job with id abc123 is done!","timestamp":"2017-09-26T11:04:31.560Z"}
-{"level":"error","message":"Failed to read the file /Users/crs/code/uniconv_server/output/ctintrotosymbolizesententiallogic.html","timestamp":"2017-09-26T11:04:31.561Z"}
-{"level":"error","message":"Verbosity set to level 3\nDEBUG: Connection type: socket,host=127.0.0.1,port=2002,tcpNoDelay=1;urp;StarOffice.ComponentContext\nDEBUG: Existing listener not found.\nDEBUG: Launching our own listener using /Applications/LibreOffice.app/Contents/MacOS/soffice.\nInput file: /Users/crs/code/uniconv_server/input/ctintrotosymbolizesententiallogic.doc\nDEBUG: Terminating LibreOffice instance.\nDEBUG: Waiting for LibreOffice instance to exit.\n","timestamp":"2017-09-26T11:04:35.237Z"}
-{"level":"info","message":"Using office base path: /Applications/LibreOffice.app/Contents\nUsing office binary path: /Applications/LibreOffice.app/Contents/MacOS\nLibreOffice listener successfully started. (pid=4927)\nSelected output format: HTML Document (OpenOffice.org Writer) [.html]\nSelected office filter: HTML (StarWriter)\nUsed doctype: document\nOutput file: file:///Users/crs/code/uniconv_server/output/ctintrotosymbolizesententiallogic.html\n","timestamp":"2017-09-26T11:04:35.238Z"}
-{"level":"info","message":"Unoconv process exited with code 0","timestamp":"2017-09-26T11:04:35.272Z"}
-{"level":"info","message":"Job with id abc123 is done!","timestamp":"2017-09-26T11:04:35.272Z"}
-{"level":"info","message":"Started job with id abc123","timestamp":"2017-09-26T11:04:43.029Z"}
-{"level":"info","message":"Master 5392 is running","timestamp":"2017-09-26T11:06:05.668Z"}
-{"level":"info","message":"Worker 5395 started","timestamp":"2017-09-26T11:06:06.230Z"}
-{"level":"info","message":"Worker 5398 started","timestamp":"2017-09-26T11:06:06.239Z"}
-{"level":"info","message":"Worker 5402 started","timestamp":"2017-09-26T11:06:06.243Z"}
-{"level":"info","message":"Worker 5396 started","timestamp":"2017-09-26T11:06:06.253Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:06.271Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:06.284Z"}
-{"level":"info","message":"Worker 5397 started","timestamp":"2017-09-26T11:06:06.269Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:06.290Z"}
-{"level":"info","message":"Worker 5401 started","timestamp":"2017-09-26T11:06:06.276Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:06.297Z"}
-{"level":"info","message":"Worker 5399 started","timestamp":"2017-09-26T11:06:06.290Z"}
-{"level":"info","message":"Worker 5400 started","timestamp":"2017-09-26T11:06:06.300Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:06.311Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:06.317Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:06.326Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:06.334Z"}
-{"level":"info","message":"Master 5513 is running","timestamp":"2017-09-26T11:06:24.205Z"}
-{"level":"info","message":"Worker 5514 started","timestamp":"2017-09-26T11:06:24.789Z"}
-{"level":"info","message":"Worker 5518 started","timestamp":"2017-09-26T11:06:24.807Z"}
-{"level":"info","message":"Worker 5521 started","timestamp":"2017-09-26T11:06:24.809Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:24.836Z"}
-{"level":"info","message":"Worker 5515 started","timestamp":"2017-09-26T11:06:24.825Z"}
-{"level":"info","message":"Started job with id abc123","timestamp":"2017-09-26T11:06:24.844Z"}
-{"level":"info","message":"Worker 5517 started","timestamp":"2017-09-26T11:06:24.838Z"}
-{"level":"info","message":"Worker 5516 started","timestamp":"2017-09-26T11:06:24.839Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:24.852Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:24.857Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:24.876Z"}
-{"level":"info","message":"Started job with id abc123","timestamp":"2017-09-26T11:06:24.858Z"}
-{"level":"info","message":"Started job with id abc123","timestamp":"2017-09-26T11:06:24.860Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:24.882Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:24.886Z"}
-{"level":"info","message":"Worker 5519 started","timestamp":"2017-09-26T11:06:24.877Z"}
-{"level":"info","message":"Worker 5520 started","timestamp":"2017-09-26T11:06:24.879Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:24.911Z"}
-{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:06:24.912Z"}
-{"level":"error","message":"Verbosity set to level 3\nDEBUG: Connection type: socket,host=127.0.0.1,port=2002,tcpNoDelay=1;urp;StarOffice.ComponentContext\nDEBUG: Existing listener not found.\nDEBUG: Launching our own listener using /Applications/LibreOffice.app/Contents/MacOS/soffice.\nDEBUG: Process /Applications/LibreOffice.app/Contents/MacOS/soffice (pid=5550) exited with 0.\nError: Unable to connect or start own listener. Aborting.\n","timestamp":"2017-09-26T11:06:30.398Z"}
-{"level":"info","message":"Using office base path: /Applications/LibreOffice.app/Contents\nUsing office binary path: /Applications/LibreOffice.app/Contents/MacOS\nLibreOffice listener successfully started. (pid=5550)\n","timestamp":"2017-09-26T11:06:30.399Z"}
-{"level":"error","message":"Verbosity set to level 3\nDEBUG: Connection type: socket,host=127.0.0.1,port=2002,tcpNoDelay=1;urp;StarOffice.ComponentContext\nDEBUG: Existing listener not found.\nDEBUG: Launching our own listener using /Applications/LibreOffice.app/Contents/MacOS/soffice.\nDEBUG: Process /Applications/LibreOffice.app/Contents/MacOS/soffice (pid=5549) exited with 0.\nError: Unable to connect or start own listener. Aborting.\n","timestamp":"2017-09-26T11:06:30.400Z"}
-{"level":"info","message":"Using office base path: /Applications/LibreOffice.app/Contents\nUsing office binary path: /Applications/LibreOffice.app/Contents/MacOS\nLibreOffice listener successfully started. (pid=5549)\n","timestamp":"2017-09-26T11:06:30.400Z"}
-{"level":"info","message":"Unoconv process exited with code 251","timestamp":"2017-09-26T11:06:30.435Z"}
-{"level":"info","message":"Job with id abc123 is done!","timestamp":"2017-09-26T11:06:30.435Z"}
-{"level":"error","message":"Failed to read the file /Users/crs/code/uniconv_server/output/ctintrotosymbolizesententiallogic.html","timestamp":"2017-09-26T11:06:30.438Z"}
-{"level":"info","message":"Unoconv process exited with code 251","timestamp":"2017-09-26T11:06:30.439Z"}
-{"level":"info","message":"Job with id abc123 is done!","timestamp":"2017-09-26T11:06:30.439Z"}
-{"level":"error","message":"Failed to read the file /Users/crs/code/uniconv_server/output/ctintrotosymbolizesententiallogic.html","timestamp":"2017-09-26T11:06:30.439Z"}
-{"level":"error","message":"Verbosity set to level 3\nDEBUG: Connection type: socket,host=127.0.0.1,port=2002,tcpNoDelay=1;urp;StarOffice.ComponentContext\nDEBUG: Existing listener not found.\nDEBUG: Launching our own listener using /Applications/LibreOffice.app/Contents/MacOS/soffice.\nInput file: /Users/crs/code/uniconv_server/input/ctintrotosymbolizesententiallogic.doc\nDEBUG: Terminating LibreOffice instance.\nDEBUG: Waiting for LibreOffice instance to exit.\n","timestamp":"2017-09-26T11:06:33.405Z"}
-{"level":"info","message":"Using office base path: /Applications/LibreOffice.app/Contents\nUsing office binary path: /Applications/LibreOffice.app/Contents/MacOS\nLibreOffice listener successfully started. (pid=5548)\nSelected output format: HTML Document (OpenOffice.org Writer) [.html]\nSelected office filter: HTML (StarWriter)\nUsed doctype: document\nOutput file: file:///Users/crs/code/uniconv_server/output/ctintrotosymbolizesententiallogic.html\n","timestamp":"2017-09-26T11:06:33.405Z"}
-{"level":"info","message":"Unoconv process exited with code 0","timestamp":"2017-09-26T11:06:33.438Z"}
-{"level":"info","message":"Job with id abc123 is done!","timestamp":"2017-09-26T11:06:33.438Z"}
-{"level":"info","message":"Started job with id abc123","timestamp":"2017-09-26T11:06:49.180Z"}
+
+{"level":"info","message":"Master 16485 is running","timestamp":"2017-09-26T11:44:56.071Z"}
+{"level":"info","message":"Worker 16496 started","timestamp":"2017-09-26T11:44:56.714Z"}
+{"level":"info","message":"Worker 16497 started","timestamp":"2017-09-26T11:44:56.725Z"}
+{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:44:56.758Z"}
+{"level":"info","message":"Started job with id abc123","timestamp":"2017-09-26T11:44:56.766Z"}
+{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:44:56.777Z"}
+{"level":"info","message":"Worker 16499 started","timestamp":"2017-09-26T11:44:56.772Z"}
+{"level":"info","message":"Worker 16495 started","timestamp":"2017-09-26T11:44:56.779Z"}
+{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:44:56.811Z"}
+{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:44:56.817Z"}
+{"level":"info","message":"Worker 16494 started","timestamp":"2017-09-26T11:44:56.809Z"}
+{"level":"info","message":"Worker 16498 started","timestamp":"2017-09-26T11:44:56.816Z"}
+{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:44:56.843Z"}
+{"level":"info","message":"Worker 16500 started","timestamp":"2017-09-26T11:44:56.834Z"}
+{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:44:56.849Z"}
+{"level":"info","message":"Worker 16501 started","timestamp":"2017-09-26T11:44:56.854Z"}
+{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:44:56.865Z"}
+{"level":"info","message":" [*] Waiting for jobs in word_import.","timestamp":"2017-09-26T11:44:56.881Z"}
+{"level":"error","message":"Verbosity set to level 3\nDEBUG: Connection type: socket,host=127.0.0.1,port=2002,tcpNoDelay=1;urp;StarOffice.ComponentContext\nDEBUG: Existing listener not found.\nDEBUG: Launching our own listener using /Applications/LibreOffice.app/Contents/MacOS/soffice.\nFailed to connect to /Applications/LibreOffice.app/Contents/MacOS/soffice (pid=16514) in 6 seconds.\nConnector : couldn't connect to socket (Undefined error: 0)\nError: Unable to connect or start own listener. Aborting.\n","timestamp":"2017-09-26T11:45:05.247Z"}
+{"level":"info","message":"Using office base path: /Applications/LibreOffice.app/Contents\nUsing office binary path: /Applications/LibreOffice.app/Contents/MacOS\nLibreOffice listener successfully started. (pid=16514)\n","timestamp":"2017-09-26T11:45:05.247Z"}
